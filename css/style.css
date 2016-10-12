@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "brandon-grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.typekit.net/af/a7d2be/0000000000000000000132e1/27/l?subset_id=2&fvd=n5") format("woff2");
+}
+
+@font-face {
+  font-family: "brandon-grotesque-reg";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.typekit.net/af/87035b/0000000000000000000132df/27/l?subset_id=2&fvd=n4") format("woff2");
+}
+
+
+
+nav{
+      background-color: #1A237E !important;
+}
+
+#submenu{
+  font-family: "brandon-grotesque";
+    background-color: #283593 !important;
+    text-transform: uppercase;
+font-weight: 500;
+letter-spacing: 0.2em;
+
+}
+.sub-nav{
+  background-color: #283593 !important;
+}
+.sub-title{
+  font-family: Lato;
+      font-weight: 500;
+      font-size: 1.5em !important;
+      letter-spacing: 0.3em;
+}
+.main-title{
+  font-family: Lato;
+font-size: 1em !important;
+font-weight: bolder;
+letter-spacing: 0.5em;
+}
+.footer-title{
+  font-family: Lato;
+font-size: 0.7em !important;
+
+letter-spacing: 0.2em;
+}
+.enroll{
+  font-size: 2rem !important;
+  padding: 0.5em;
+}
+#title-form{
+  font: 500 24px/36px "brandon-grotesque",sans-serif;
+  text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .autocomplete-content {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 92%;
+    width: calc(100% - 3rem);
+}
+
+.drop-down-school{
+  margin-top: 0em;
+  align-items: center;
+  min-height: 500px;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+}
+
+.drop-down-main{
+  margin-top:5em;
+}
