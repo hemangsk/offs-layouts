@@ -67,11 +67,25 @@ letter-spacing: 0.2em;
 .drop-down-school{
   margin-top: 0em;
   align-items: center;
-  min-height: 500px;
   background-image: url(../images/1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 35em;
+
 }
 
 .drop-down-main{
   margin-top:5em;
+}
+
+.login-select-item{
+  font-family: Roboto;
+font-size: 2em !important;
+font-weight: 100;
+text-transform: capitalize !important;
+}
+.log-sel-cont{
+
+
 }
