@@ -14,7 +14,8 @@
 
 
 
-nav{
+nav, footer{
+  text-align: center;
       background-color: #1A237E !important;
 }
 
@@ -42,10 +43,18 @@ font-weight: bolder;
 letter-spacing: 0.5em;
 }
 .footer-title{
-  font-family: Lato;
+  font-family: Lato !important;
 font-size: 0.7em !important;
 
-letter-spacing: 0.2em;
+letter-spacing: 0.2em !important;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 0px !important;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(51,51,51,0.08);
 }
 .enroll{
   font-size: 2rem !important;
@@ -66,12 +75,10 @@ letter-spacing: 0.2em;
 
 .drop-down-school{
   margin-top: 0em;
-  align-items: center;
-  background-image: url(../images/1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 35em;
+   align-items: center;
+   min-height: 500px;
+   background-image: url(../images/1.jpg);
+   background-size: cover;
 
 }
 
@@ -87,5 +94,62 @@ text-transform: capitalize !important;
 }
 .log-sel-cont{
 
+padding-top: 5em;
+}
 
+footer.page-footer {
+    margin-top: 0px !important;
+    padding-top: 20px !important;
+
+}
+
+.login-sel-cont{
+  padding-top: 2em;
+}
+
+#wrapper-bar
+{
+  padding-top: 2.5em;
+height: 40px;
+}
+#c1
+{
+width: 10px;vertical-align:bottom;display:inline-block;
+}
+#b1
+{
+background-color:#1A237E; height: 40px;
+}
+
+
+.custom-full-row {
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1A237E;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #0D47A1;
+}
+
+.login-card-title{
+  font-size: 1.3em;
+margin-left: 50px !important;
+font-family: Roboto;
+font-weight: 800;
+letter-spacing: 0.1em;
+color: #1A237E;
+}
+
+.login-box-form{
+  margin-top: 2em;
 }
