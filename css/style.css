@@ -195,3 +195,28 @@ margin-top: 1em;
 .custom-container{
   padding-left: 0em !important
 }
+.welcome-student{
+  font-size: 1em;
+font-family: Roboto;
+font-weight: 400;
+padding: 1em;
+}
+.student-name-welcome{
+  font-size: 1.5em;
+}
+.student-image{
+  margin-top: 1em;
+}
+
+.email-id-col{
+  margin-top: 2em;
+}
+
+.welcome-student-col{
+  margin-top: 3em;
+
+}
+
+.student-main-image:hover{
+  opacity: 0.5;
+}
