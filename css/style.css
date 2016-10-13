@@ -76,7 +76,7 @@ footer.page-footer .footer-copyright {
 .drop-down-school{
   margin-top: 0em;
    align-items: center;
-   min-height: 500px;
+  min-height: 70vh;
    background-image: url(../images/1.jpg);
    background-size: cover;
 
@@ -109,8 +109,8 @@ footer.page-footer {
 
 #wrapper-bar
 {
-  padding-top: 2.5em;
-height: 40px;
+
+
 }
 #c1
 {
@@ -123,8 +123,7 @@ background-color:#1A237E; height: 40px;
 
 
 .custom-full-row {
-    margin-left: 0rem !important;
-    margin-right: 0rem !important;
+
 }
 
 .btn, .btn-large {
@@ -141,15 +140,58 @@ background-color:#1A237E; height: 40px;
   background-color: #0D47A1;
 }
 
+.btn-large:hover{
+  background-color: #0D47A1;
+}
 .login-card-title{
   font-size: 1.3em;
-margin-left: 50px !important;
+margin-left: 1.5em !important;
 font-family: Roboto;
 font-weight: 800;
+
 letter-spacing: 0.1em;
 color: #1A237E;
 }
-
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
 .login-box-form{
-  margin-top: 2em;
+
+}
+
+.page-theme{
+  font-family: Roboto;
+    font-weight: 100;
+    font-size: 3em;
+    padding-top: 1em;
+
+    text-align: center;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-sub-theme{
+  font-family: Lato;
+      text-transform: uppercase;
+      font-weight: 800;
+      text-align: center;
+      align-content: center;
+      letter-spacing: 0.1em;
+}
+
+.custom-full-row{
+  margin-left: 0em !important;
+
+margin-top: 1em;
+}
+
+.custom-container{
+  padding-left: 0em !important
 }
