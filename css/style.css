@@ -220,3 +220,22 @@ padding: 1em;
 .student-main-image:hover{
   opacity: 0.5;
 }
+
+.teacher-input{
+        background-color: #1A237E !important;
+    color: #fff;
+    text-align: center;
+    width: 100px !important;
+}
+
+.input[type=text]:focus:not([readonly]){
+    background-color:black !important;
+}
+
+.stud-attribute-text{
+        font-family: Roboto;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 1em;
+}
